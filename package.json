@@ -1,0 +1,32 @@
+{
+  "name": "beats-music-api",
+  "version": "0.0.1",
+  "description": "beats music api helper. Authorize users and make api calls. Easy",
+  "main": "beats.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "beats",
+    "music",
+    "beatsmusic",
+    "spotify",
+    "oauth",
+    "node"
+  ],
+  "author": "Hendrixer",
+  "license": "MIT",
+  "dependencies": {
+    "serializer": "0.0.3",
+    "q": "^1.0.1",
+    "oauth": "^0.9.11",
+    "gulp": "^3.6.2"
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.2.0",
+    "gulp-notify": "^1.2.5",
+    "gulp-uglify": "^0.2.1",
+    "gulp-jshint": "^1.5.5",
+    "jshint-stylish": "^0.2.0"
+  }
+}
